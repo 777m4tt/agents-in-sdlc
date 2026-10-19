@@ -6,9 +6,9 @@ authors:
 lastUpdated: 2026-06-30
 ---
 
-VS Code의 [**GitHub Copilot Chat**](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)은 이미 사용 중인 코드 편집기에 GitHub Copilot을 통합합니다. Visual Studio Code와 GitHub Codespaces에서 Copilot Chat의 에이전트 모드(Agent mode)를 사용하고, MCP를 통해 외부 도구를 연결하며, 사용자 지정 에이전트를 활용합니다. IDE를 벗어나지 않고 이 모든 작업을 수행하며, Copilot은 파일, 터미널, 문제를 모두 확인할 수 있습니다.
+VS Code의 [**GitHub Copilot Chat**](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)은 이미 사용 중인 코드 편집기에 GitHub Copilot을 통합합니다. Visual Studio Code와 GitHub Codespaces에서 Copilot Chat의 에이전트 모드(Agent mode)를 사용하고, 모델 컨텍스트 프로토콜(Model Context Protocol, MCP)을 통해 외부 도구를 연결하며, 사용자 지정 에이전트를 활용합니다. 통합 개발 환경(IDE)을 벗어나지 않고 이 모든 작업을 수행하며, Copilot은 파일, 터미널, 문제를 모두 확인할 수 있습니다.
 
-먼저 사용자 지정 지침을 추가하고 Copilot이 이를 따르는지 살펴봅니다. 그런 다음 에이전트 모드로 UI, 데이터 계층, 테스트에 걸쳐 필터링 기능을 만듭니다. 이어서 Playwright MCP 서버를 연결하고 Copilot이 브라우저를 조작하여 기능을 테스트하도록 한 뒤 풀 리퀘스트(Pull request)를 엽니다. 마지막으로 접근성 작업을 위한 사용자 지정 에이전트를 검토하고 사용한 다음, Copilot의 변경 사항을 모니터링하고 방향을 조정하며 반복해서 개선합니다. 모든 작업은 편집기 안에서 진행합니다.
+먼저 사용자 지정 지침을 추가하고 Copilot이 이를 따르는지 살펴봅니다. 그런 다음 에이전트 모드로 사용자 인터페이스(UI), 데이터 계층, 테스트에 걸쳐 필터링 기능을 만듭니다. 이어서 Playwright MCP 서버를 연결하고 Copilot이 브라우저를 조작하여 기능을 테스트하도록 한 뒤 풀 리퀘스트(Pull request)를 엽니다. 마지막으로 접근성 작업을 위한 사용자 지정 에이전트를 검토하고 사용한 다음, Copilot의 변경 사항을 모니터링하고 방향을 조정하며 반복해서 개선합니다. 모든 작업은 편집기 안에서 진행합니다.
 
 ## 실습
 

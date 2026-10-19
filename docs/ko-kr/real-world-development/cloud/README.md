@@ -19,7 +19,7 @@ lastUpdated: 2026-06-30
 | [2. Cloud agent][ex2] | 비동기 에이전트 | 이슈를 GitHub Copilot cloud agent에 할당합니다 |
 | [3. 사용자 지정 에이전트][ex3] | 특화된 에이전트 | 사용자 지정 에이전트를 검토하고 사용합니다 |
 | [4. 에이전트 관리][ex4] | 모니터링 | 에이전트 세션을 모니터링하고 안내합니다 |
-| [5. 반복 개선][ex5] | 검토 | PR을 검토하고 Copilot의 작업을 반복 개선한 뒤 다음 단계를 선택합니다 |
+| [5. 반복 개선][ex5] | 검토 | 풀 리퀘스트(PR)를 검토하고 Copilot의 작업을 반복 개선한 뒤 다음 단계를 선택합니다 |
 
 ## 사전 준비
 
@@ -29,7 +29,7 @@ lastUpdated: 2026-06-30
 - [ ] 계정 또는 조직에서 GitHub Copilot cloud agent가 활성화되어 있어야 합니다.
 
 > [!TIP]
-> 유료 플랜이 없습니까? 인증된 학생은 [GitHub Education][callout-student-plan-education]을 통해 GitHub Copilot을 무료로 사용할 수 있습니다. **Copilot Student** 플랜에는 이 워크숍에서 사용하는 agent, MCP, 코드 검토, Copilot CLI 기능이 포함되어 있으므로 모든 실습 과정을 완료할 수 있습니다.
+> 유료 플랜이 없습니까? 인증된 학생은 [GitHub Education][callout-student-plan-education]을 통해 GitHub Copilot을 무료로 사용할 수 있습니다. **Copilot Student** 플랜에는 이 워크숍에서 사용하는 에이전트, MCP, 코드 검토, Copilot CLI 기능이 포함되어 있으므로 모든 실습 과정을 완료할 수 있습니다.
 
 [callout-student-plan-education]: https://github.com/education/students
 
@@ -37,7 +37,7 @@ lastUpdated: 2026-06-30
 > Cloud agent는 **Copilot Student, Pro, Pro+, Business, Enterprise** 플랜에서 사용할 수 있습니다. Copilot Free 플랜에서는 사용할 수 없습니다. Copilot Business 또는 Enterprise를 사용하는 경우 관리자가 조직에서 cloud agent를 활성화해야 합니다.
 
 > [!NOTE]
-> 이 과정에서는 MCP를 다루지 않습니다. Copilot에서 MCP 서버를 사용하는 방법을 알아보려면 [CLI 과정][cli] 또는 [VS Code 과정][vscode]을 참조합니다.
+> 모델 컨텍스트 프로토콜(Model Context Protocol, MCP)은 이 과정에서 다루지 않습니다. Copilot에서 MCP 서버를 사용하는 방법을 알아보려면 [CLI 과정][cli] 또는 [VS Code 과정][vscode]을 참조합니다.
 
 ## 시작하기
 
